@@ -9,7 +9,7 @@ int Led8 = 11;
 
 
 void setup() {
-  // put your setup code here, to run once:
+  // setup code here, to run once:
   Serial.begin(9600);
 
   pinMode(Led1, OUTPUT);
@@ -24,7 +24,7 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  // main code here, to run repeatedly:
   blink(Led1, 781, 515);
   blink(Led2, 2014, 1348);
   blink(Led3, 343, 573);
